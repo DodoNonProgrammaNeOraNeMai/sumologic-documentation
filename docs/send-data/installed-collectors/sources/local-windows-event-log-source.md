@@ -58,7 +58,7 @@ To configure a Local Windows Event Log Source:
 
      * **Standard Event Channels**. Select the main check box for all types, or individual check boxes for specific types (Security, Application, and/or System).
      * **Forwarded Events**. See how to [Collect Forwarded Events from a Windows Event Collector.](collect-forwarded-events-windows-event-collector.md)
-     * **Custom Event Channels** to specify, in a comma-separated list, the channels you'd like to collect from. If you need help finding channels on the machine where the Source is installed, see [Windows Event Source Custom Channels](local-windows-event-log-source.md).  To collect from custom event channels in a Local Event Source, the Collector must have version 19.118 or later installed.
+     * **Custom Event Channels** to specify, in a comma-separated list, the channels you'd like to collect from. If you need help finding channels on the machine where the Source is installed, see [Windows Event Source Custom Channels](windows-event-source-custom-channels.md).  To collect from custom event channels in a Local Event Source, the Collector must have version 19.118 or later installed.
 
    * Depending on the **Event Format** selected, you'll have different options.
      * **Event Collection Level**. When JSON format is selected you have the option to select:
